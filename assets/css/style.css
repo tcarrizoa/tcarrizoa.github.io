@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+:root{
+    --main-bg-color: #E83E8C;
+}
+
+/*******************************
+estilos para el nav bar
+
+*******************************/
+
+.navbar{
+    background-color: var(--main-bg-color);
+}
+
+
+.navbar-brand img{
+    height: 3.3125rem;
+}
+
+/**en pantallas sobre los 768pc el h1 sera de 60px*/
+h1{
+    font-size: 3.75rem; /* 60px*/
+    font-weight: 600;
+    color: #756d6d;
+}
+
+
+.productos h1{
+    padding: 60px 0px;
+}
+
+.productos{
+    padding-top: 3.75rem;
+}
+
+/* si la pantalla es menor a 768 la fuente del h1 sera de 35px*/
+/*  @media es una condicion*/
+
+@media (max-widht: 768px){
+    #productos h1{
+        font-size: 35px;
+        padding: 30px 0px;
+        margin-top: 30px;
+    }
+}
+
+/*estilos para las tarjetas de credito*/
+
+#ahora-aceptamos{
+    background-color: #17a2b8;
+    height: 180px;
+    padding: 70px;
+}
+
+#ahora-aceptamos h2{
+    font-size: 40px;
+}
+
+
+
+
+footer{
+    background-color: var(--main-bg-color);
+}
+
+footer img{
+    height: 6.25rem;
+}
+
+
+
+
+
+
+
+
